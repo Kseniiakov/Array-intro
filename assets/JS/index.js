@@ -47,12 +47,15 @@
 
 // 4. * массив (с примитивными типами) перевести в строку с разделителем & или @
 
-// const arr = [1,2,3,4,5,'test'];
+// const arr = [1,2,3,4,5,6];
 
 // let strArr = String();
 
 // for (let i = 0; i < arr.length; i++) {
-//   strArr += arr[i] + '@';
+//   strArr += arr[i];
+//   if (i !== arr.length - 1) {
+//     strArr += '@';
+//   }
 // }
 
 // console.log(strArr);
